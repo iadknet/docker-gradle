@@ -28,6 +28,6 @@ VOLUME ["/root/.gradle/caches", "/usr/bin/app"]
 
 # Default command is "/usr/bin/gradle -version" on /usr/bin/app dir
 # (ie. Mount project at /usr/bin/app "docker --rm -v /path/to/app:/usr/bin/app gradle <command>")
-WORKDIR /usr/bin/app
+WORKDIR /app
 ENTRYPOINT [ "gradle" ]
 CMD [ "-version" ]
