@@ -1,5 +1,5 @@
 FROM java:8-jdk-alpine
-MAINTAINER Nicholas Iaquinto <nickiaq@gmail.com>
+MAINTAINER Isaac Stefanek <isaac@iadk.net>
 
 # Gradle
 ENV GRADLE_VERSION 2.7
