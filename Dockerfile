@@ -1,4 +1,4 @@
-FROM java:8-jdk
+FROM java:8-jdk-alpine
 MAINTAINER Nicholas Iaquinto <nickiaq@gmail.com>
 
 # Gradle
