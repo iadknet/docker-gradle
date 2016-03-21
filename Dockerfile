@@ -3,7 +3,7 @@ MAINTAINER Isaac Stefanek <isaac@iadk.net>
 
 # Gradle
 ENV GRADLE_VERSION 2.5
-ENV GRADLE_SHA 023e54fe656d87afab5c3014c6b7115f65ecb420b2e3135369286c36fcfc8d1f
+ENV GRADLE_SHA 3f953e0cb14bb3f9ebbe11946e84071547bf5dfd575d90cfe9cc4e788da38555
 VOLUME /tmp
 
 ENV apk_packages_add curl unzip
