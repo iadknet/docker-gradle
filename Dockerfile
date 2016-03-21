@@ -6,7 +6,7 @@ ENV GRADLE_VERSION 2.5
 ENV GRADLE_SHA 3f953e0cb14bb3f9ebbe11946e84071547bf5dfd575d90cfe9cc4e788da38555
 VOLUME /tmp
 
-ENV apk_packages_add curl unzip bash
+ENV apk_packages_add curl unzip bash git
 ENV apk_packages_del curl unzip
 
 RUN apk --update add ${apk_packages_add} \ 
