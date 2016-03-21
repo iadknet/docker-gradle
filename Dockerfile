@@ -1,9 +1,9 @@
 FROM java:8-jdk-alpine
-MAINTAINER Nicholas Iaquinto <nickiaq@gmail.com>
+MAINTAINER Isaac Stefanek <isaac@iadk.net>
 
 # Gradle
-ENV GRADLE_VERSION 2.7
-ENV GRADLE_SHA cde43b90945b5304c43ee36e58aab4cc6fb3a3d5f9bd9449bb1709a68371cb06
+ENV GRADLE_VERSION 2.5
+ENV GRADLE_SHA 023e54fe656d87afab5c3014c6b7115f65ecb420b2e3135369286c36fcfc8d1f
 VOLUME /tmp
 
 ENV apk_packages_add curl unzip
